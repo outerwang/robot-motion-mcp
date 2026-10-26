@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "robot-motion": {
+      "command": "cmd",
+      "args": ["/c", "run_server.cmd"]
+    }
+  }
+}

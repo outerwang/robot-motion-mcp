@@ -1,0 +1,8 @@
+.venv/
+.pytest_cache/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+runs/
+agent-workspace/agent.env

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robot-motion-mcp"
+version = "0.1.0"
+description = "MCP server for querying and safely running robot motion-planning tasks"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=2.3,<3",
+    "pydantic>=2.5",
+]
+
+[project.scripts]
+robot-motion-mcp-server = "robot_motion_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
